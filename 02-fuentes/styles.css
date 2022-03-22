@@ -1,0 +1,22 @@
+@font-face{
+    font-family: Comfortaa-Custom ;
+    src: url(fonts/Comfortaa-Regular.ttf);
+}
+h1{
+    font-family: Comfortaa-Custom ;
+    src: url(fonts/Comfortaa-Regular.ttf);
+    font-size: 45px;
+    color: #ccc;
+}
+
+h3{
+    font-family: 'Mansalva', cursive;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: rgb(138, 139, 223);
+}
+
+p{
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,0 +1,34 @@
+@font-face{
+
+    font-family: Comforta-Regular;
+    src: url(fonts/Comfortaa-Regular.ttf);
+}
+body{
+font-family: Comforta-Regular;
+src: url(fonts/Comfortaa-Regular.ttf);
+font-size: 25;
+
+/*background-color: #e5e5f7;
+background-image: url("img/skyrim.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+background-position: center;*/
+
+color: black;
+text-align: left ;
+
+}
+#caja{
+    border: 5px solid black;
+    padding:10px;
+    background-color: rgb(134, 15, 15) ;
+    color: white
+
+}
+
+#textbox{
+    margin: 20px;
+    color: blueviolet;
+    text-align: justify;
+}

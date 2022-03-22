@@ -1,0 +1,98 @@
+/*
+############ SELECTORES ##############
+*/
+
+/*SELECTOR UNIVERSAL (El selector universal es un asterisco)*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*SELECTOR DE ETIQUETA*/
+h1{
+    background: red;
+    color: aliceblue;
+    padding: 10px;
+}
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+footer a{
+color: red;
+}
+
+/*SELECTORES DE ID*/
+
+#descripcion{
+    border: 1px solid black;
+    padding: 20px;
+}
+#Titulo{
+    background-color: aqua;
+    color: aliceblue;
+    border: 2px dashed red;
+}
+
+/* SELECTORES DE CLASE*/
+
+.parrafo{
+    background-color: indianred;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.parrafo3{
+    color: white;
+    background-color: orange;
+    font-size: 20;
+}
+
+/*SELECTOR DE ATRIBUTO*/
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    background: grey;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+/*Selectores hijo*/
+#menu > li > a {
+    color: red;
+}
+
+
+/*Prioridad (mientras mas especifica sea la regla css es mas prioritaria)*/
+#saludo h1{
+background-color: darkgoldenrod;
+
+}
+h1{
+    background: purple !important;
+
+}
+
+
+
