@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+#container {
+    margin: 0px auto;
+    width: 70%;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: lightblue;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+article {
+    background-color: green;
+    width: 19%;
+    height: 150px;
+    color: white;
+    margin: 15px;
+    text-align: center;
+    line-height: 150px;
+    float: left;
+
+}
+
+#articles {
+    background-color: #FFFACD;
+    min-height: 700px;
+}
+
+aside {
+    width: 25%;
+    float: left;
+    min-height: 700px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+@media (max-width:888px) {
+    article {
+        background-color: red;
+        width: 30%;
+    }
+}
+
+@media(max-width:587px) {
+    article {
+        background-color: blue;
+        width: 60%;
+    }
+}

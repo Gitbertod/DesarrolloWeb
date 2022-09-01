@@ -1,0 +1,316 @@
+/*ESTILOS GENERALES*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(../img/pattern.png);
+}
+
+/*FUENTES*/
+@font-face {
+    font-family: "BebasNeue";
+    src: url(fonts/BebasNeue.otf);
+}
+
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url("fonts/TrebuchetMS.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "WebSymbolsRegular";
+    src: url("fonts/websymbols-regular-webfont.eot");
+    src: url("fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+        url("fonts/websymbols-regular-webfont.svg#websymbolsregular") format("svg"),
+        url("fonts/websymbols-regular-webfont.ttf") format("truetype"),
+        url("fonts/websymbols-regular-webfont.woff") format("woff");
+}
+
+/*CABECERA*/
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+
+}
+
+.wrap {
+    font-family: "BebasNeue";
+    width: 1250px;
+    margin: 0px auto;
+}
+
+
+#logo {
+    float: left;
+    width: 200px;
+    display: block;
+    margin-top: 8px;
+    margin-left: 20px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #37bcf9;
+    height: 53px;
+}
+
+#logo .gear {
+
+    display: block;
+    float: left;
+    font-family: "WebSymbolsRegular";
+    width: 40px;
+    margin-top: 7px;
+    margin-left: 25px;
+    font-size: 30px;
+
+}
+
+#logo h3 {
+    display: block;
+    float: right;
+    font-size: 40px;
+    margin-right: 64px;
+    margin-top: 5px;
+}
+
+.wrap nav #menu {
+    display: block;
+    float: right;
+    height: 70px;
+    display: block;
+}
+
+#menu ul {
+    display: block;
+    float: right;
+    margin: auto -20px;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    margin-right: 40px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+#menu ul li a {
+    display: block;
+    float: left;
+    font-size: 25px;
+    letter-spacing: 1px;
+    height: 70px;
+
+    color: white;
+    text-decoration: none;
+}
+
+/*---- BANNER ----*/
+#banner {
+    height: 100px;
+    width: 95.5%;
+    margin: 20px auto;
+    margin-bottom: 60px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 2px gray;
+    background: url(../img/bakbaner.png);
+    background-position: -200px -200px;
+}
+
+#banner h1 {
+    display: block;
+    color: white;
+    width: 850px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-family: "BebasNeue";
+    font-size: 45px;
+    margin: 27px auto;
+}
+
+/*---- CARDS ----*/
+#cards {
+    width: 1250px;
+    margin-left: 18px;
+}
+
+.card {
+    display: block;
+    float: left;
+    height: 315px;
+    width: 208px;
+    text-align: center;
+    margin-right: 43px;
+    background-color: white;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.card:last-child {
+    margin-right: 0px;
+}
+
+.icon {
+    width: 205px;
+    height: 130px;
+    font-family: "WebSymbolsRegular";
+    font-size: 50px;
+    line-height: 110px;
+    text-align: center;
+}
+
+.tema {
+
+    color: #00538c;
+    font-family: "TrebuchetMS";
+    width: 205px;
+    height: 50px;
+    font-size: 21px;
+
+}
+
+.description {
+    color: #0060a0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*FORMULARIO ASIDE*/
+#lateral {
+    float: right;
+    width: 300px;
+    margin-top: 110px;
+    margin-right: 10px;
+}
+
+#lateral form h3 {
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    padding-left: 13px;
+    background: url(../img/pxgray.png), white;
+    box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+    ;
+}
+
+#lateral input[type="text"],
+#lateral input[type="email"],
+#lateral input[type="password"] {
+    margin: 10px;
+    width: 200px;
+    height: 28px;
+    color: gray;
+    padding-left: 30px;
+    border-top: none;
+    border-left: none;
+    border-radius: 5px;
+    box-shadow: -1px 0px 5px #ccc inset;
+}
+
+.whitebox {
+    padding-top: 5px;
+    margin: 0px auto;
+    background-color: white;
+    width: 265px;
+    height: 240px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.whitebox .enlaces {
+    display: block;
+    color: black;
+    margin-left: 10px;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.whitebox .enlaces:hover {
+    color: #00538c;
+    text-decoration: underline;
+
+}
+
+#lateral input[type="button"] {
+    background: transparent;
+    font-size: 16px;
+    font-family: "WebSymbolsRegular";
+    width: 30px;
+    height: 30px;
+
+}
+
+#lateral input[type="button"] {
+    color: gray;
+    position: absolute;
+    padding-bottom: 4px;
+    margin-left: -40px;
+    margin-top: 12px;
+    border: none;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#user {
+    font-family: "WebSymbolsRegular";
+    margin-top: 14px;
+    margin-left: 18px;
+    position: absolute;
+}
+
+.smallicon {
+    font-family: "WebSymbolsRegular";
+    position: absolute;
+    font-size: 20px;
+    margin-top: 66px;
+    margin-left: -232px;
+}
+
+#lateral input[value="Limpiar"],
+#lateral input[value="Entrar"] {
+    border: #00538c 1px solid;
+    margin: 15px;
+    color: white;
+    background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100%);
+    width: 100px;
+    height: 35px;
+}
+
+.rrss-icon {
+    margin: 15px;
+    display: block;
+    font-family: "WebSymbolsRegular";
+    color: gray;
+    font-size: 30px;
+}
+
+/*ARTICLES*/
+#articles {
+    width: 860px;
+
+}
+
+#articles h2 {
+    display: block;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    font-family: "BebasNeue";
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    background: url(../img/pxgray.png), white;
+
+
+}
