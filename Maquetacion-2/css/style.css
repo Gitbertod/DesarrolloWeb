@@ -133,7 +133,6 @@ body {
 
 #logo:hover h3 {
     animation: fromRight 300ms linear;
-
 }
 
 @keyframes fromRight {
