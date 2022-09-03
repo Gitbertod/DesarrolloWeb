@@ -29,6 +29,11 @@ body {
 }
 
 /*CABECERA*/
+.clearfix {
+    float: none;
+    clear: both;
+}
+
 header {
     width: 100%;
     height: 70px;
@@ -182,7 +187,7 @@ header {
 #lateral {
     float: right;
     width: 300px;
-    margin-top: 110px;
+    margin-top: 30px;
     margin-right: 10px;
 }
 
@@ -298,6 +303,8 @@ header {
 /*ARTICLES*/
 #articles {
     width: 860px;
+    float: left;
+    margin-top: 50px;
 
 }
 
@@ -311,6 +318,118 @@ header {
     font-size: 40px;
     font-weight: normal;
     background: url(../img/pxgray.png), white;
+    box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+}
 
+#articles article {
+    height: auto;
+    margin-top: 35px;
+    font-family: "TrebuchetMS";
+    background-color: white;
+    border: 1px solid #ccc;
+}
 
+.data {
+    height: 40px;
+    color: white;
+    float: right;
+    border-radius: 0px 0px 0px 5px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "TrebuchetMS";
+    background-color: #393d3f;
+}
+
+article h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+article h4 a {
+    margin: 15px;
+    color: #00538c;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+article p {
+    margin: 0px 10px 10px 10px;
+}
+
+#blog {
+    text-align: center;
+}
+
+#blog a {
+    font-family: "BebasNeue";
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #00538c;
+    line-height: 100px;
+
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: 440px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+}
+footer section{
+    width: 1250px;
+    margin: 0px auto;
+}
+
+.footer_content {
+    display: block;
+    width: 320px;
+    height: 370px;
+    margin: 40px;
+    float: left;
+}
+.footer_content h5{
+    display: block;
+    color: black;
+    font-size: 40px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "BebasNeue";
+    font-family: "BebasNeue";
+    background: url(../img/pxgray.png), white;
+}
+#menu_footer{
+    width: 100%;
+    margin-left: 10px;
+}
+#menu_footer li{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+
+}
+#menu_footer li a{
+    display: block;
+    height: 50px;
+    width: 85%;
+    font-size: 25px;
+    color: #37bcf9;
+    font-family: "TrebuchetMS";
+    font-weight: lighter;
+    font-style: normal;
+    border-bottom: 1px solid white ;
+}
+#location iframe{
+    margin: 0px auto;
+    margin-top: 20px;
+    height: 300px;
+    width: 320px;
+    border-radius: 5px;
 }
